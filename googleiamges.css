@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    
+
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(9,1fr);
+    height: 100vh;
+    
+}
+body>.search_box{
+        grid-column: 3/7;
+        grid-row:6/6;
+    
+    margin: 30px auto auto auto;
+    
+}
+form{
+    margin-top: 20px;
+
+}
+form>div>.bar{
+    width:35vw;
+    height: 2vw;
+    border: 0.1px solid rgb(214, 205, 205);
+    border-radius:9px;
+} 
+form>div>.bar:hover{
+    box-shadow: 5px 10px 10px rgba(204, 197, 197, 0.29);
+}
+.search_button{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    margin-top:  21px;
+    margin-left: 205px;
+
+    
+    
+}  
+.imfeelinglucky{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    margin-top: 110px; 
+    margin-left:20px ;
+
+}
+
+.google{
+    grid-column: 4/6;
+    grid-row:5/6;
+    font-size:4.5vw;
+
+    height: 157px;
+}
+
+
+.image_search{
+    grid-column: 7/8;
+    grid-row: 1/2;
+    padding: 25px;;
+
+}
+.adv_search{
+    grid-column: 8/9;
+    grid-row: 1/2;
+    padding: 25px;
+
+}
